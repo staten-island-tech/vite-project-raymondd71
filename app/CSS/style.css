@@ -1,3 +1,4 @@
+@import "variable.css";
 html, body, *{
   margin:0;
   padding:0;
@@ -5,27 +6,6 @@ html, body, *{
   font-size: 10px
 }
 
-:root{
-  --light-blue:#2998ff;
-  --dark-blue:#135cc5;
-  --light-red: #f87171;
-  --dark-red: #dc2626;
-  --red-orange: #f63b17;
-  --primary: var(--dark-blue);
-
-  --h1: 7.594rem;
-  --h2: 5.653rem;
-  --h3: 3.998rem
-
-}
-
-.warm{
-  --primary: var(--red-orange);
-}
-
-.cool{
-  --primary: var(--light-blue);
-}
 
 body{
   background-color: var(--primary);
@@ -33,6 +13,7 @@ body{
 
 h1{
   font-size: var(--h1);
+  text-align: center;
 }
 
 h2{
