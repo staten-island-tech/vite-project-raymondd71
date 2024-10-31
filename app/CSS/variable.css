@@ -4,11 +4,15 @@
     --light-red: #f87171;
     --dark-red: #dc2626;
     --red-orange: #f63b17;
+    --grey: #808080;
     --primary: var(--dark-blue);
   
-    --h1: 7.594rem;
-    --h2: 5.653rem;
-    --h3: 3.998rem
+    --h1: 4.027rem;
+    --h2: 3.802rem;
+    --h3: 2.602rem;
+    --h4: 1.424rem;
+    --h5: 1.266rem;
+    --h6: 1.505rem; 
   
   }
   
@@ -19,4 +23,6 @@
   .cool{
     --primary: var(--light-blue);
   }
-  
+  .main{
+    --primary: var(--grey);
+  }

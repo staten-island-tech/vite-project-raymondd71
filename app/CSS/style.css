@@ -21,3 +21,26 @@ h2{
 }
 h3{
   font-size: var(--h2)}
+.container{
+  display:flex;
+  width: 90vw;
+  margin: 1.5rem auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 2rem;
+}   
+
+.card{
+  height: 20rem;
+  width:30%;
+  border: 2px solid black;
+  border-radius: 25px;
+  display:flex;
+  flex-direction:column; 
+  align-items: center;
+  margin-bottom: 5%;
+  justify-content: space-around;
+  background-color: white;
+}
