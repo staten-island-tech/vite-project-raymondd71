@@ -20,7 +20,20 @@ h2{
   font-size: var(--h2);
 }
 h3{
-  font-size: var(--h2)}
+  font-size: var(--h3);
+}
+h4{
+  font-size:var(--h4);
+}
+h5{
+  font-size:var(--h5);
+}
+h6{
+  font-size:var(--h6);
+}
+p{
+  font-size:var(--p)
+}
 .container{
   display:flex;
   width: 90vw;
@@ -33,7 +46,7 @@ h3{
 }   
 
 .card{
-  height: 20rem;
+  height: 25rem;
   width:30%;
   border: 2px solid black;
   border-radius: 25px;
