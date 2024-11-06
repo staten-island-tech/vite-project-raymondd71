@@ -3,59 +3,56 @@ const valorantAgents = [
     name: "Jett",
     class: "Duelist",
     util: [true, false, false, false, false],
-    imageUrl: "",
+    imageUrl: "jett.jpg",
     altText: "",
   },
   {
     name: "Phoenix",
     class: "Duelist",
     util: [false, true, true, false, false],
-    imageUrl: "",
+    imageUrl: "phoenix.jpg",
     altText: "",
   },
   {
     name: "Sage",
     class: "Sentinel",
     util: [false, false, true, false, false],
-    imageUrl: "",
+    imageUrl: "sage.jpg",
     altText: "",
   },
   {
     name: "Sova",
     class: "Initiator",
     util: [false, false, false, false, false],
-    imageUrl: "",
+    imageUrl: "sova.jpg",
     altText: "",
   },
   {
     name: "Cypher",
     class: "Sentinel",
     util: [true, false, false, false, true],
-
-    imageUrl: "",
+    imageUrl: "cypher.jpg",
     altText: "",
   },
   {
     name: "Viper",
     class: "Controller",
     util: [true, false, false, true, false],
-    imageUrl: "",
+    imageUrl: "viper.jpg",
     altText: "",
   },
   {
     name: "Brimstone",
     class: "Controller",
     util: [true, false, false, true, false],
-
-    imageUrl: "",
+    imageUrl: "brim.jpg",
     altText: "",
   },
   {
     name: "Raze",
     class: "Duelist",
     util: [false, false, false, false, false],
-
-    imageUrl: "",
+    imageUrl: "raze.jpg",
     altText: "",
   },
   {
@@ -63,7 +60,7 @@ const valorantAgents = [
     class: "Controller",
     util: [true, true, false, false, false],
 
-    imageUrl: "",
+    imageUrl: "omen.jpg",
     altText: "",
   },
   {
@@ -71,7 +68,7 @@ const valorantAgents = [
     class: "Duelist",
     util: [false, true, true, false, false],
 
-    imageUrl: "",
+    imageUrl: "reyna.jpg",
     altText: "",
   },
   {
@@ -79,7 +76,7 @@ const valorantAgents = [
     class: "Sentinel",
     util: [false, false, false, false, true],
 
-    imageUrl: "",
+    imageUrl: "kj.jpg",
     altText: "",
   },
   {
@@ -87,7 +84,7 @@ const valorantAgents = [
     class: "Initiator",
     util: [false, true, true, false, true],
 
-    imageUrl: "",
+    imageUrl: "skye.jpg",
     altText: "",
   },
   {
@@ -95,7 +92,7 @@ const valorantAgents = [
     class: "Duelist",
     util: [false, true, false, false, false],
 
-    imageUrl: "",
+    imageUrl: "yoru.jpg",
     altText: "",
   },
   {
@@ -103,7 +100,7 @@ const valorantAgents = [
     class: "Controller",
     util: [true, false, false, false, true],
 
-    imageUrl: "",
+    imageUrl: "astra.jpg",
     altText: "",
   },
   {
@@ -111,7 +108,7 @@ const valorantAgents = [
     class: "Initiator",
     util: [false, true, false, true, false],
 
-    imageUrl: "",
+    imageUrl: "kayo.jpg",
     altText: "",
   },
   {
@@ -120,7 +117,7 @@ const valorantAgents = [
     util: [false, false, false, false, false],
 
     stun: false,
-    imageUrl: "",
+    imageUrl: "chamber.jpg",
     altText: "",
   },
   {
@@ -128,7 +125,7 @@ const valorantAgents = [
     class: "Duelist",
     util: [false, false, false, false, true],
 
-    imageUrl: "",
+    imageUrl: "neon.jpg",
     altText: "",
   },
   {
@@ -136,7 +133,7 @@ const valorantAgents = [
     class: "Initiator",
     util: [false, false, false, false, false],
 
-    imageUrl: "",
+    imageUrl: "fade.jpg",
     altText: "",
   },
   {
@@ -144,7 +141,7 @@ const valorantAgents = [
     class: "Controller",
     util: [true, false, false, false, true],
 
-    imageUrl: "",
+    imageUrl: "harbor.jpg",
     altText: "",
   },
   {
@@ -152,7 +149,7 @@ const valorantAgents = [
     class: "Initiator",
     util: [false, true, false, true, true],
 
-    imageUrl: "",
+    imageUrl: "gecko.jpg",
     altText: "",
   },
   {
@@ -160,7 +157,7 @@ const valorantAgents = [
     class: "Sentinel",
     util: [false, false, false, false, true],
 
-    imageUrl: "",
+    imageUrl: "deadlock.jpg",
     altText: "",
   },
   {
@@ -168,7 +165,7 @@ const valorantAgents = [
     class: "Controller",
     util: [true, false, true, false, false],
 
-    imageUrl: "",
+    imageUrl: "clove.jpg",
     altText: "",
   },
   {
@@ -176,14 +173,14 @@ const valorantAgents = [
     class: "Sentinel",
     util: [false, true, false, true],
 
-    imageUrl: "",
+    imageUrl: "vyse.jpg",
     altText: "",
   },
   {
     name: "Iso",
     class: "Duelist",
     util: [false, false, false, false],
-    imageUrl: "",
+    imageUrl: "iso.jpg",
     altText: "",
   },
 ];
