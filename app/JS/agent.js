@@ -171,7 +171,7 @@ const valorantAgents = [
   {
     name: "Vyse",
     class: "Sentinel",
-    util: [false, true, false, true],
+    util: [false, true, false, true, false],
 
     imageUrl: "vyse.jpg",
     altText: "",
@@ -179,7 +179,7 @@ const valorantAgents = [
   {
     name: "Iso",
     class: "Duelist",
-    util: [false, false, false, false],
+    util: [false, false, false, false, false],
     imageUrl: "iso.jpg",
     altText: "",
   },

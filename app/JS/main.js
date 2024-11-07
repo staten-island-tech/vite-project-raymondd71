@@ -23,3 +23,20 @@ valorantAgents.forEach(
     ),
   id++
 );
+
+function createSorted() {
+
+  continue here
+}
+----------------------------
+document.querySelector("#flash").addEventListener("click", () => {
+  const agentsWithFlash = valorantAgents.filter(
+    (agent) => agent.util[1] === true
+  );
+  displayAgents(agentsWithFlash);
+});
+// function createdSorted() {
+//   document.querySelector(".container").innerHTML = "";
+// }
+// agent.filter((agent) => agent.Class.includes("Duelist"));
+// createdSorted();
