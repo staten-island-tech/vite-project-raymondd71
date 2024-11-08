@@ -60,3 +60,18 @@ p{
 .image{
   height: 45%;
 }
+.flash{
+  height: 10rem;
+  width: 5%;
+  align-items: center;
+}
+
+#reset{
+  height: fit-content;
+  width:  fit-content;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+/* EDIT THE SIZE OF BUTTON  */
