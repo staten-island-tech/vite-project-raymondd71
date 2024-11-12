@@ -31,7 +31,13 @@ document.querySelector("#reset").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(valorantAgents);
 });
-
+document.querySelector("#smokes").addEventListener("click", () => {
+  const agentsWithSmokes = valorantAgents.filter(
+    (agent) => agent.util[0] === true
+  );
+  document.querySelector(".container").innerHTML = "";
+  displayAgents(agentsWithSmokes);
+});
 document.querySelector("#flash").addEventListener("click", () => {
   const agentsWithFlash = valorantAgents.filter(
     (agent) => agent.util[1] === true
@@ -39,6 +45,30 @@ document.querySelector("#flash").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(agentsWithFlash);
 });
+document.querySelector("#heal").addEventListener("click", () => {
+  const agentsWithHeal = valorantAgents.filter(
+    (agent) => agent.util[2] === true
+  );
+  document.querySelector(".container").innerHTML = "";
+  displayAgents(agentsWithHeal);
+});
+document.querySelector("#molly").addEventListener("click", () => {
+  const agentsWithMolly = valorantAgents.filter(
+    (agent) => agent.util[3] === true
+  );
+  document.querySelector(".container").innerHTML = "";
+  displayAgents(agentsWithMolly);
+});
+
+----
+document.querySelector("#molly").addEventListener("click", () => {
+  const agentsWithMolly = [valorantAgents.filter(
+    (agent) => agent.util[3] === true
+  );
+  document.querySelector(".container").innerHTML = "";
+  displayAgents(agentsWithMolly);]
+});
+// creates a list with valorant agents that are filtered so that their 3rd util(molly) is true then it displays the agents with molly in the HTML
 
 // agent.filter((agent) => agent.Class.includes("Duelist"));
 // createdSorted();

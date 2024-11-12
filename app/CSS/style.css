@@ -66,12 +66,14 @@ p{
   align-items: center;
 }
 
-#reset{
+
+.button {
   height: fit-content;
   width:  fit-content;
   align-items: center;
   font-size: 3rem;
   padding: 1rem;
-  border-radius: 25px;
+  border-radius: 25px
 }
+
 /* EDIT THE SIZE OF BUTTON  */
