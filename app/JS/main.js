@@ -60,14 +60,16 @@ document.querySelector("#molly").addEventListener("click", () => {
   displayAgents(agentsWithMolly);
 });
 
-----
-document.querySelector("#molly").addEventListener("click", () => {
-  const agentsWithMolly = [];
-  valorantAgents.forEach
-    (agent)=>{
-      if (agent.util[3] === true ){agentsWithMolly.push(agent);}
+document.querySelector("#flash").addEventListener("click", () => {
+  const agentsWithFlash = [];
+  valorantAgents.forEach((agent) => {
+    if (agent.util[1] === true) {
+      agentsWithFlash.push(agent);
     }
   });
+  document.querySelector(".container").innerHTML = "";
+  displayAgents(agentsWithMolly);
+});
 // creates a list with valorant agents that are filtered so that their 3rd util(molly) is true then it displays the agents with molly in the HTML
 
 // agent.filter((agent) => agent.Class.includes("Duelist"));
