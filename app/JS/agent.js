@@ -9,7 +9,7 @@ const valorantAgents = [
   {
     name: "Phoenix",
     class: "Duelist",
-    util: [false, true, true, false, false],
+    util: [false, true, true, true, false],
     imageUrl: "phoenix.jpg",
     altText: "",
   },

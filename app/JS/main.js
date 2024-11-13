@@ -31,6 +31,7 @@ document.querySelector("#reset").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(valorantAgents);
 });
+
 document.querySelector("#smokes").addEventListener("click", () => {
   const agentsWithSmokes = valorantAgents.filter(
     (agent) => agent.util[0] === true
@@ -38,6 +39,7 @@ document.querySelector("#smokes").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(agentsWithSmokes);
 });
+
 document.querySelector("#flash").addEventListener("click", () => {
   const agentsWithFlash = valorantAgents.filter(
     (agent) => agent.util[1] === true
@@ -45,6 +47,7 @@ document.querySelector("#flash").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(agentsWithFlash);
 });
+
 document.querySelector("#heal").addEventListener("click", () => {
   const agentsWithHeal = valorantAgents.filter(
     (agent) => agent.util[2] === true
@@ -52,19 +55,12 @@ document.querySelector("#heal").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(agentsWithHeal);
 });
-document.querySelector("#molly").addEventListener("click", () => {
-  const agentsWithMolly = valorantAgents.filter(
-    (agent) => agent.util[3] === true
-  );
-  document.querySelector(".container").innerHTML = "";
-  displayAgents(agentsWithMolly);
-});
 
-document.querySelector("#flash").addEventListener("click", () => {
-  const agentsWithFlash = [];
+document.querySelector("#molly").addEventListener("click", () => {
+  const agentsWithMolly = [];
   valorantAgents.forEach((agent) => {
-    if (agent.util[1] === true) {
-      agentsWithFlash.push(agent);
+    if (agent.util[3] === true) {
+      agentsWithMolly.push(agent);
     }
   });
   document.querySelector(".container").innerHTML = "";
