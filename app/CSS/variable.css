@@ -5,6 +5,7 @@
     --dark-red: #dc2626;
     --red-orange: #f63b17;
     --grey: #808080;
+    --black: #000000 ;
     --primary: var(--dark-blue);
   
     --h1: 2.986rem;
@@ -26,4 +27,7 @@
   }
   .main{
     --primary: var(--grey);
+  }
+  .theme1{
+    --primary: var(--dark-blue)
   }

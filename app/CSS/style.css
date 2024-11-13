@@ -55,7 +55,7 @@ p{
   align-items: center;
   margin-bottom: 5%;
   justify-content: space-around;
-  background-color: white;
+  background-color: lightgrey;
 }
 .image{
   height: 45%;
@@ -69,11 +69,24 @@ p{
 
 .button {
   height: fit-content;
-  width:  fit-content;
+  width:  50rem;
   align-items: center;
   font-size: 3rem;
   padding: 1rem;
   border-radius: 25px
 }
+.theme1-card{
+  height: 40rem;
+  width:30%;
+  border: 2px solid black;
+  border-radius: 25px;
+  display:flex;
+  flex-direction:column; 
+  align-items: center;
+  margin-bottom: 5%;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+
 
 /* EDIT THE SIZE OF BUTTON  */

@@ -66,7 +66,27 @@ document.querySelector("#molly").addEventListener("click", () => {
   document.querySelector(".container").innerHTML = "";
   displayAgents(agentsWithMolly);
 });
+
 // creates a list with valorant agents that are filtered so that their 3rd util(molly) is true then it displays the agents with molly in the HTML
 
-// agent.filter((agent) => agent.Class.includes("Duelist"));
-// createdSorted();
+//themes
+document.querySelector("#theme").addEventListener("click", function () {
+  if (document.body.classList.contains("main")) {
+    document.body.classList.remove("main");
+    document.body.classList.add("theme1");
+  } else {
+    document.body.classList.remove("theme1");
+    document.body.classList.add("main");
+  }
+  // changes card background to match the theme
+  const cards = document.querySelectorAll(".card");
+  cards.forEach((card) => {
+    if (card.classList.contains("theme1-card")) {
+      card.classList.remove("theme1-card");
+      card.classList.add("main-card");
+    } else {
+      card.classList.remove("main-card");
+      card.classList.add("theme1-card");
+    }
+  });
+});
