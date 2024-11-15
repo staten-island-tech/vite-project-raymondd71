@@ -4,56 +4,56 @@ const valorantAgents = [
     class: "Duelist",
     util: [true, false, false, false, false],
     imageUrl: "jett.jpg",
-    altText: "",
+    altText: "girl that can airbend",
   },
   {
     name: "Phoenix",
     class: "Duelist",
     util: [false, true, true, true, false],
     imageUrl: "phoenix.jpg",
-    altText: "",
+    altText: "black guy with firebend",
   },
   {
     name: "Sage",
     class: "Sentinel",
     util: [false, false, true, false, false],
     imageUrl: "sage.jpg",
-    altText: "",
+    altText: "asian girl with healing ability",
   },
   {
     name: "Sova",
     class: "Initiator",
     util: [false, false, false, false, false],
     imageUrl: "sova.jpg",
-    altText: "",
+    altText: "russian guy with bow ",
   },
   {
     name: "Cypher",
     class: "Sentinel",
     util: [true, false, false, false, true],
     imageUrl: "cypher.jpg",
-    altText: "",
+    altText: "insecure moroccan man",
   },
   {
     name: "Viper",
     class: "Controller",
     util: [true, false, false, true, false],
     imageUrl: "viper.jpg",
-    altText: "",
+    altText: "girl who contributes to pollution",
   },
   {
     name: "Brimstone",
     class: "Controller",
     util: [true, false, false, true, false],
     imageUrl: "brim.jpg",
-    altText: "",
+    altText: "big patriotic guy",
   },
   {
     name: "Raze",
     class: "Duelist",
     util: [false, false, false, false, false],
     imageUrl: "raze.jpg",
-    altText: "",
+    altText: "allahu akbar",
   },
   {
     name: "Omen",
@@ -61,7 +61,7 @@ const valorantAgents = [
     util: [true, true, false, false, false],
 
     imageUrl: "omen.jpg",
-    altText: "",
+    altText: "emo guy",
   },
   {
     name: "Reyna",
@@ -69,7 +69,7 @@ const valorantAgents = [
     util: [false, true, true, false, false],
 
     imageUrl: "reyna.jpg",
-    altText: "",
+    altText: "goth mommy",
   },
   {
     name: "Killjoy",
@@ -77,7 +77,7 @@ const valorantAgents = [
     util: [false, false, false, false, true],
 
     imageUrl: "kj.jpg",
-    altText: "",
+    altText: "german technician",
   },
   {
     name: "Skye",
@@ -85,7 +85,7 @@ const valorantAgents = [
     util: [false, true, true, false, true],
 
     imageUrl: "skye.jpg",
-    altText: "",
+    altText: "aussie",
   },
   {
     name: "Yoru",
@@ -93,7 +93,7 @@ const valorantAgents = [
     util: [false, true, false, false, false],
 
     imageUrl: "yoru.jpg",
-    altText: "",
+    altText: "schizophenic's worst nightmare",
   },
   {
     name: "Astra",
@@ -101,7 +101,7 @@ const valorantAgents = [
     util: [true, false, false, false, true],
 
     imageUrl: "astra.jpg",
-    altText: "",
+    altText: "space girl",
   },
   {
     name: "KAY/O",
@@ -109,7 +109,7 @@ const valorantAgents = [
     util: [false, true, false, true, false],
 
     imageUrl: "kayo.jpg",
-    altText: "",
+    altText: "robot",
   },
   {
     name: "Chamber",
@@ -118,7 +118,7 @@ const valorantAgents = [
 
     stun: false,
     imageUrl: "chamber.jpg",
-    altText: "",
+    altText: "French Guy with guns",
   },
   {
     name: "Neon",
@@ -126,7 +126,7 @@ const valorantAgents = [
     util: [false, false, false, false, true],
 
     imageUrl: "neon.jpg",
-    altText: "",
+    altText: "fast filipino woman",
   },
   {
     name: "Fade",
@@ -134,7 +134,7 @@ const valorantAgents = [
     util: [false, false, false, false, false],
 
     imageUrl: "fade.jpg",
-    altText: "",
+    altText: "turkish emo",
   },
   {
     name: "Harbor",
@@ -142,7 +142,7 @@ const valorantAgents = [
     util: [true, false, false, false, true],
 
     imageUrl: "harbor.jpg",
-    altText: "",
+    altText: "water man",
   },
   {
     name: "Gekko",
@@ -150,7 +150,7 @@ const valorantAgents = [
     util: [false, true, false, true, true],
 
     imageUrl: "gecko.jpg",
-    altText: "",
+    altText: "a guy that has lots of pets",
   },
   {
     name: "Deadlock",
@@ -158,7 +158,7 @@ const valorantAgents = [
     util: [false, false, false, false, true],
 
     imageUrl: "deadlock.jpg",
-    altText: "",
+    altText: "Norweign girl",
   },
   {
     name: "Clove",
@@ -166,7 +166,7 @@ const valorantAgents = [
     util: [true, false, true, false, false],
 
     imageUrl: "clove.jpg",
-    altText: "",
+    altText: "2 life person",
   },
   {
     name: "Vyse",
@@ -174,14 +174,14 @@ const valorantAgents = [
     util: [false, true, false, true, false],
 
     imageUrl: "vyse.jpg",
-    altText: "",
+    altText: "wierd new girl",
   },
   {
     name: "Iso",
     class: "Duelist",
     util: [false, false, false, false, false],
     imageUrl: "iso.jpg",
-    altText: "",
+    altText: "hot chinese dude ",
   },
 ];
 
