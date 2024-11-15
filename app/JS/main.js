@@ -18,7 +18,7 @@ function displayAgents(valorantAgents) {
         <h4>Heal: ${agent["util"][2]}</h4>
         <h4>Molly: ${agent["util"][3]}</h4>
         <h4>Stun: ${agent["util"][4]}</h4>
-        <img  class ="image"src="${agent["imageUrl"]}" alt="">
+        <img  class ="image"src="${agent["imageUrl"]}" alt="${agent["altText"]}">
         <img
         </div>`
       ),
