@@ -42,10 +42,11 @@ document.querySelector("#smokes").addEventListener("click", () => {
 
 document.querySelector("#flash").addEventListener("click", () => {
   const agentsWithFlash = valorantAgents.filter(
+    // creates a thing list with agents with flash(agents with 2nd thing as true)
     (agent) => agent.util[1] === true
   );
   document.querySelector(".container").innerHTML = "";
-  displayAgents(agentsWithFlash);
+  displayAgents(agentsWithFlash); // displays those agents
 });
 
 document.querySelector("#heal").addEventListener("click", () => {
