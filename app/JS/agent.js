@@ -4,12 +4,7 @@ const valorantAgents = [
     class: "Duelist",
     util: [true, false, false, false, false, 1],
     imageUrl: "jett.jpg",
-<<<<<<< Updated upstream
     altText: "girl that can airbend",
-=======
-
-    altText: "",
->>>>>>> Stashed changes
   },
   {
     name: "Phoenix",
