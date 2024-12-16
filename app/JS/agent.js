@@ -2,7 +2,7 @@ const valorantAgents = [
   {
     name: "Jett",
     class: "Duelist",
-    util: [true, false, false, false, false, 1],
+    util: [true, false, false, false, false],
     imageUrl: "jett.jpg",
     altText: "girl that can airbend",
   },
